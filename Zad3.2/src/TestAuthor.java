@@ -7,5 +7,8 @@ public class TestAuthor {
         System.out.println(author1.toString());
         author1.setSurname("Jagiełło");
         System.out.println(author1.toString());
+        
+        System.out.println(author2.toString());
+        System.out.println(author3.toString());
     }
 }
