@@ -14,15 +14,15 @@ public class Author {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getSurname() {
-        return surname;
+        return this.surname;
     }
 
     public int getAge() {
-        return age;
+        return this.age;
     }
 
     @Override
