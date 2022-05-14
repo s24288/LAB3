@@ -22,7 +22,7 @@ public class Circle {
     }
 
     public String getColor() {
-        return color;
+        return this.color;
     }
 
     public double getArea() {
