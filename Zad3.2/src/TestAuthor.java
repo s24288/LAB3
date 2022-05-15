@@ -4,11 +4,11 @@ public class TestAuthor {
         Author author2 = new Author("Janusz", "Nowak", 30);
         Author author3 = new Author("Robert", "Wolski", 40);
 
-        System.out.println(author1.toString());
+        System.out.println(author1);
         author1.setSurname("Jagiełło");
-        System.out.println(author1.toString());
+        System.out.println(author1);
         
-        System.out.println(author2.toString());
-        System.out.println(author3.toString());
+        System.out.println(author2);
+        System.out.println(author3);
     }
 }
